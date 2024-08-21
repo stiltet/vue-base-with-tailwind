@@ -9,5 +9,4 @@ import ResponsiveTailwindTest from '@/components/ResponsiveTailwindTest.vue'
   </div>
 </template>
 
-<style>
-</style>
+<style></style>

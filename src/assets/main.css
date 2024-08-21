@@ -1,4 +1,4 @@
-@import "fonts/_roboto.css";
+@import 'fonts/_roboto.css';
 
 @tailwind base;
 @tailwind components;
