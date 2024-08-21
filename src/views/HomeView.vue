@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <HelloWorld class="h-full display-flex justify-center align-middle" msg="You did it!" />
   </main>
 </template>
