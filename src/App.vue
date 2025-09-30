@@ -9,8 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
       class="display-block text-center"
       src="@/assets/logo.svg"
       width="125"
-      height="125"
-    />
+      height="125" />
 
     <nav>
       <RouterLink to="/">Home</RouterLink>

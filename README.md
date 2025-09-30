@@ -1,4 +1,5 @@
 # vue-base-with-tailwind
+
 Vue base template project with Tailwind CSS
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -15,28 +16,42 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Prerequirements
+
+Make sure NodeJS version 24 is installed, if other version make sure to use NVM to easily swap between NodeJS versions.
+
+```sh
+node --version
+```
+
+Install pnpm package manager
+
+```sh
+npm i -g pnpm
+```
+
 ## Project Setup
 
 ```sh
-yarn install
+pnpm i
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-yarn run dev
+pnpm dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-yarn run build
+pnpm build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-yarn run test:unit
+pnpm test:unit
 ```
 
 ### Run End-to-End Tests with [Playwright](https://playwright.dev)
@@ -46,20 +61,20 @@ yarn run test:unit
 npx playwright install
 
 # When testing on CI, must build the project first
-yarn run build
+pnpm build
 
 # Runs the end-to-end tests
-yarn run test:e2e
+pnpm test:e2e
 # Runs the tests only on Chromium
-yarn run test:e2e -- --project=chromium
+pnpm test:e2e -- --project=chromium
 # Runs the tests of a specific file
-yarn run test:e2e -- tests/example.spec.ts
+pnpm test:e2e -- tests/example.spec.ts
 # Runs the tests in debug mode
-yarn run test:e2e -- --debug
+pnpm test:e2e -- --debug
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-yarn run lint
+pnpm lint
 ```
